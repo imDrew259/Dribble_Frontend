@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Editor from "@monaco-editor/react";
 
+// Building Editor
 const EditorCode = () => {
   return (
     <div>
