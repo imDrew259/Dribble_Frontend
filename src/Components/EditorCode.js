@@ -1,10 +1,13 @@
-import React, { Fragment } from "react";
+import React, { useRef } from "react";
 import Editor from "@monaco-editor/react";
 import "./Components.css";
 
 // Building Editor
 const EditorCode = (props) => {
-  console.log(props.title);
+  // const code = useRef(null);
+  const editorHandler = (editor) => {
+    props.code.current = editor;
+  };
   return (
     <div className="editor">
       <Editor
@@ -13,6 +16,7 @@ const EditorCode = (props) => {
         language={props.title.toLowerCase()}
         theme="vs-dark"
         defaultValue="// your code goes here"
+        onChange={editorHandler}
       />
     </div>
   );
