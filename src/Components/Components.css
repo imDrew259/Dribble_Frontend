@@ -1,0 +1,45 @@
+.editor {
+  width: 75%;
+}
+
+.strip {
+  margin-bottom: 1vh;
+  height: 3vh;
+  background-image: linear-gradient(to right, #df275e, #d7a322);
+}
+
+.dd {
+  display: flex;
+  width: 60%;
+  justify-content: space-evenly;
+  margin-bottom: 1vh;
+}
+
+.dd-mv {
+  border: 2px solid;
+  border-image: linear-gradient(to right, #df275e, #d7a322);
+  border-image-slice: 1;
+  box-shadow: 5px 5px black;
+  margin-bottom: 1vh;
+}
+
+.btn-mv {
+  color: black;
+  background-color: white;
+  border-radius: 0;
+}
+
+.btn-mv-content {
+  width: 15vh;
+}
+
+.div-input {
+  width: 23%;
+  height: 20vh;
+  margin: 0 1rem 1rem 0;
+}
+
+.text-area {
+  width: 100%;
+  height: 100%;
+}
