@@ -1,11 +1,31 @@
-# Getting Started with Create React App
 
+
+# Dribble - The Remote Code Executor (Online IDE) - Frontend
+
+## Description
+This repository contains the frontend code for a Remote Code Executor, also known as an Online IDE. The frontend is built using React and includes a code editor, input and output fields, and supports multiple programming languages, including C++, Java, and Python. The application offers two themes: dark and light, allowing users to choose their preferred appearance.
+
+## Features
+- Code Editor: A powerful code editor to write and edit code for various programming languages.
+- Input and Output Fields: Users can provide input for their code and see the output results.
+- Language Support: The application supports multiple programming languages, including C++, Java, and Python.
+- Theme Options: Users can switch between two themes - dark and light - for a comfortable coding experience.
+
+## Getting Started
+Follow these steps to clone the repository and start using the Remote Code Executor frontend:
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Prerequisites
+Make sure you have Node.js and npm installed on your system.
 
-In the project directory, you can run:
+## Clone the Repository
+### `https://github.com/imDrew259/Dribble_Frontend.git`
 
+## Installation
+### `npm install`
+
+
+## Run Application
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -19,52 +39,14 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## How to Use
+1. Open the application in your web browser by navigating to http://localhost:3000.
+2. Choose your preferred theme (dark or light) from the settings/options menu.
+3. Select the programming language from the language dropdown.
+4. Write or paste your code into the code editor.
+5. Provide any necessary input in the input field.
+6. Click the "Run" button to execute the code.
+7. View the output in the output field.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Support and Contributions
+If you find this project helpful or like the Online IDE, please consider giving this repository a star. Contributions are welcome! If you encounter any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.
