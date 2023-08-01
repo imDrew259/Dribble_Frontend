@@ -4,7 +4,7 @@ import "./Components.css";
 
 // Building Editor
 const EditorCode = (props) => {
-  // const code = useRef(null);
+  console.log(props.theme);
   const editorHandler = (editor) => {
     props.code.current = editor;
   };
@@ -14,7 +14,7 @@ const EditorCode = (props) => {
         height="80vh"
         width={`100%`}
         language={props.title.toLowerCase()}
-        theme="vs-dark"
+        theme={props.theme.toLowerCase()}
         defaultValue="// your code goes here"
         onChange={editorHandler}
       />

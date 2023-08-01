@@ -1,11 +1,12 @@
 import React from "react";
 import "./Components.css";
 
-const CustomInput = () => {
+const CustomInput = (props) => {
+  console.log(props.output);
   return (
     <div className="div-output">
       <h5>Output:</h5>
-      <div className="output"></div>
+      <div className="output">{props.output}</div>
     </div>
   );
 };

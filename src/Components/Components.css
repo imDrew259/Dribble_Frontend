@@ -56,5 +56,8 @@
 .output {
   height: calc(100% - 25px);
   background: linear-gradient(to bottom, #333333, #000000);
-  color: green;
+  color: white;
+  white-space: pre-wrap;
+  padding-left: 0.2rem;
+  overflow: auto;
 }

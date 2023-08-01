@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import DropDown from "./DropDown";
 import languages from "../Data/languages";
+import themes from "../Data/themes";
 
 import "./Components.css";
 
@@ -15,7 +16,12 @@ const Header = (props) => {
           list={languages}
           defaultV="CPP"
         />
-        {/* <DropDown title="Theme" list={languages} /> */}
+        <DropDown
+          title={props.theme}
+          setTitle={props.setTheme}
+          list={themes}
+          defaultV="VS-Dark"
+        />
       </div>
     </div>
   );
