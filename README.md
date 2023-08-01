@@ -3,7 +3,7 @@
 # Dribble - The Remote Code Executor (Online IDE) - Frontend
 
 ## Description
-This repository contains the frontend code for a Remote Code Executor, also known as an Online IDE. The frontend is built using React and includes a code editor, input and output fields, and supports multiple programming languages, including C++, Java, and Python. The application offers two themes: dark and light, allowing users to choose their preferred appearance.
+This repository contains the frontend code for a Remote Code Executor(Online IDE). The frontend is built using React and includes a code editor, input and output fields, and supports multiple programming languages, including C++, Java, and Python. The application offers two themes: dark and light, allowing users to choose their preferred appearance.
 
 ## Features
 - Code Editor: A powerful code editor to write and edit code for various programming languages.
